@@ -85,9 +85,9 @@ Revoke global language change permission from non-admins:
 
 ManagerVoiceChat includes YAML-based language files:
 
-- 🇪🇸 **Spanish** → `es.yml`  
-- 🇬🇧 **English** → `en.yml`  
-- 🇩🇪 **German** → `de.yml`  
+- 🇪🇸 **Spanish**  
+- 🇬🇧 **English**   
+- 🇩🇪 **German**   
 
 You can add your own languages by creating new files inside `plugins/ManagerVoiceChat/lang/`.
 
