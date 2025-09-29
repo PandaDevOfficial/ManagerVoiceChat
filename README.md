@@ -92,7 +92,8 @@ ManagerVoiceChat includes YAML-based language files:
 - 🇧🇷 **Portuguese** → `pt.yml`  
 - 🇫🇷 **French** → `fr.yml`  
 
-If your preferred language isn’t available, you can **add your own** by creating a `.yml` file inside `plugins/ManagerVoiceChat/lang/` and opening a contribution to the repository so others can use it too.
+If your preferred language isn’t available, you can **add your own** by creating a `.yml` file inside  
+`plugins/ManagerVoiceChat/lang/` or check the [lang folder in the repository](https://github.com/PandaDevOfficial/ManagerVoiceChat/tree/main/lang).  
 
 ---
 
