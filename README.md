@@ -15,7 +15,7 @@ It works with **Simple Voice Chat** and **Plasmo Voice**, allowing you to **mute
 - 📑 **Multi-language support** (`es.yml`, `en.yml`, `de.yml`, …)  
 - ⚡ Automatic tab-completion (`players`, `all`, `*`)  
 - 🛠️ Runs on **Paper / Spigot / Purpur / Folia**  
-- 🕹️ Supports **Minecraft 1.13 – 1.21+**  
+- 🕹️ Supports **Minecraft 1.17 – 1.21+** 
 
 ---
 
@@ -85,32 +85,41 @@ Revoke global language change permission from non-admins:
 
 ManagerVoiceChat includes YAML-based language files:
 
-- 🇪🇸 **Spanish**  
-- 🇬🇧 **English**   
-- 🇩🇪 **German**   
+- 🇪🇸 **Spanish** → `es.yml`  
+- 🇬🇧 **English** → `en.yml`  
+- 🇩🇪 **German** → `de.yml`  
+- 🇯🇵 **Japanese** → `ja.yml`  
+- 🇧🇷 **Portuguese** → `pt.yml`  
+- 🇫🇷 **French** → `fr.yml`  
 
-You can add your own languages by creating new files inside `plugins/ManagerVoiceChat/lang/`.
+If your preferred language isn’t available, you can **add your own** by creating a `.yml` file inside `plugins/ManagerVoiceChat/lang/` and opening a contribution to the repository so others can use it too.
 
 ---
 
 ## 🖥️ Compatibility
 
 - **Server types:** Paper, Spigot, Purpur, Folia, Bukkit  
-- **Minecraft versions:** 1.13 → 1.21+  
+- **Minecraft versions:** 1.17 → 1.21+  
 
 ---
 
 ## 📎 Links
 
 - 🌐 [GitHub](https://github.com/PandaDevOfficial)  
+- 💬 [Discord](https://discord.gg/QgZ6kvANQc)  
+- 🐦 [X (Twitter)](https://x.com/PandaDev0001)  
 - 📦 [Modrinth](https://modrinth.com/user/PandaDev0001)  
 - 🛒 [BuiltByBit](https://builtbybit.com/members/pandadev001.656718/)  
 - 🔗 [SpigotMC](https://www.spigotmc.org/members/pandadevoffi.1551117/)
 
 ---
 
-## 🐞 Bug Reports
 
-Found a bug or an issue?  
-Please report it in the [Issues section](https://github.com/PandaDevOfficial/ManagerVoiceChat/issues) of this repository.
+## 🤝 Contributing
+
+We welcome translations, bug reports, and feature suggestions!  
+Please check our [Contributing Guide](CONTRIBUTING.md) for details.
+
+
+
 
