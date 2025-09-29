@@ -3,7 +3,7 @@
 **ManagerVoiceChat** is a lightweight plugin to **manage voice chat permissions** on your server.  
 It works with **Simple Voice Chat** and **Plasmo Voice**, allowing you to **mute/unmute speaking** and **mute/unmute listening** for individual players or the entire server.
 
-✨ Designed for **Paper**, **Spigot**, **Purpur**, **Folia**, and other Bukkit-based servers from **Minecraft 1.13 up to 1.21+**.
+✨ Designed for **Paper**, **Spigot**, **Purpur**, **Folia**, and other Bukkit-based servers from **Minecraft 1.17 up to 1.21+**.
 
 ---
 
