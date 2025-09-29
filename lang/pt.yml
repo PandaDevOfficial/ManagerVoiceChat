@@ -1,0 +1,64 @@
+#  /$$      /$$                                                             /$$    /$$          /$$                      /$$$$$$  /$$                   /$$
+#| $$$    /$$$                                                            | $$   | $$         |__/                     /$$__  $$| $$                  | $$
+#| $$$$  /$$$$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$   | $$ /$$$$$$  /$$  /$$$$$$$  /$$$$$$ | $$  \__/| $$$$$$$   /$$$$$$  /$$$$$$
+#| $$ $$/$$ $$ |____  $$| $$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$|  $$ / $$//$$__  $$| $$ /$$_____/ /$$__  $$| $$      | $$__  $$ |____  $$|_  $$_/
+#| $$  $$$| $$  /$$$$$$$| $$  \ $$  /$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/ \  $$ $$/| $$  \ $$| $$| $$      | $$$$$$$$| $$      | $$  \ $$  /$$$$$$$  | $$
+#| $$\  $ | $$ /$$__  $$| $$  | $$ /$$__  $$| $$  | $$| $$_____/| $$        \  $$$/ | $$  | $$| $$| $$      | $$_____/| $$    $$| $$  | $$ /$$__  $$  | $$ /$$
+#| $$ \/  | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$         \  $/  |  $$$$$$/| $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$$  |  $$$$/
+#|__/     |__/ \_______/|__/  |__/ \_______/ \____  $$ \_______/|__/          \_/    \______/ |__/ \_______/ \_______/ \______/ |__/  |__/ \_______/   \___/
+#                                            /$$  \ $$
+#                                           |  $$$$$$/
+#                                            \______/
+#
+#
+#
+#                                      GitHub (Source Code): https://github.com/PandaDevOfficial/ManagerVoiceChat
+#
+#
+#
+# Geral
+no-plugin: "<red>Nenhum plugin ou mod de chat de voz compatível foi detectado.</red> <gray>Por favor, instale pelo menos um de:</gray> <yellow>{plugins}</yellow>."
+missing-plugin: "<yellow>{plugin}</yellow> não está instalado. <gray>Algumas funções podem não estar disponíveis.</gray>"
+player-not-found: "<red>Jogador não encontrado:</red> <white>{player}</white>"
+
+# Recarregar
+reload-success: "<green>Configuração e idiomas recarregados com sucesso.</green>"
+reload-error: "<red>Erro ao recarregar: <white>{error}</white></red>"
+
+# Idiomas
+lang:
+  not-found: "<red>Idioma não encontrado:</red> <yellow>{lang}</yellow>"
+  disabled: "<red>A troca de idioma pessoal está desativada pelo administrador.</red>"
+  global-changed: "<green>Idioma global alterado para:</green> <yellow>{lang}</yellow>"
+  self-changed: "<green>Seu idioma foi alterado para:</green> <yellow>{lang}</yellow>"
+  other-changed: "<green>O idioma de {player} foi alterado para:</green> <yellow>{lang}</yellow>"
+  changed-by-admin: "<aqua>Seu idioma foi alterado para:</aqua> <yellow>{lang}</yellow> <gray>(por um admin)</gray>"
+  list: "<aqua>Idiomas disponíveis:</aqua> <yellow>{langs}</yellow>"
+
+# Comandos individuais
+mute-success: "<green>Você mutou <white>{player}</white>.</green>"
+unmute-success: "<green>Você desmutou <white>{player}</white>.</green>"
+mute-listen-success: "<green>Você mutou a escuta de <white>{player}</white>.</green>"
+unmute-listen-success: "<green>Você desmutou a escuta de <white>{player}</white>.</green>"
+
+# Falar global
+speak-global-enable: "<blue>[🎙]</blue> <white>Fala habilitada para todos.</white>"
+speak-global-disable: "<red>[🎙x]</red> <white>Todos os microfones foram mutados.</white>"
+
+# Escutar global
+listen-global-enable: "<green>[✔]</green> <white>Escuta habilitada para todos.</white>"
+listen-global-disable: "<red>[✖]</red> <white>Escuta desabilitada para todos.</white>"
+
+# Falar individual
+speak-enable: "<green>[✔]</green> <white>Agora você pode falar!</white>"
+speak-disable: "<red>[✖]</red> <white>Seu microfone foi mutado.</white>"
+
+# Escutar individual
+listen-enable: "<green>[✔]</green> <white>Você pode escutar novamente!</white>"
+listen-disable: "<red>[✖]</red> <white>Sua escuta foi desabilitada.</white>"
+
+# Notificações (quando afeta um grupo inteiro)
+speak-notify-enable: "<green>[✔]</green> <white>Agora você pode falar.</white>"
+speak-notify-disable: "<red>[✖]</red> <white>Microfone desabilitado, por favor, preste atenção.</white>"
+listen-notify-enable: "<green>[✔]</green> <white>Você pode escutar novamente.</white>"
+listen-notify-disable: "<red>[✖]</red> <white>Escuta temporariamente desabilitada.</white>"

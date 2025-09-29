@@ -1,0 +1,64 @@
+#  /$$      /$$                                                             /$$    /$$          /$$                      /$$$$$$  /$$                   /$$
+#| $$$    /$$$                                                            | $$   | $$         |__/                     /$$__  $$| $$                  | $$
+#| $$$$  /$$$$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$   | $$ /$$$$$$  /$$  /$$$$$$$  /$$$$$$ | $$  \__/| $$$$$$$   /$$$$$$  /$$$$$$
+#| $$ $$/$$ $$ |____  $$| $$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$|  $$ / $$//$$__  $$| $$ /$$_____/ /$$__  $$| $$      | $$__  $$ |____  $$|_  $$_/
+#| $$  $$$| $$  /$$$$$$$| $$  \ $$  /$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/ \  $$ $$/| $$  \ $$| $$| $$      | $$$$$$$$| $$      | $$  \ $$  /$$$$$$$  | $$
+#| $$\  $ | $$ /$$__  $$| $$  | $$ /$$__  $$| $$  | $$| $$_____/| $$        \  $$$/ | $$  | $$| $$| $$      | $$_____/| $$    $$| $$  | $$ /$$__  $$  | $$ /$$
+#| $$ \/  | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$         \  $/  |  $$$$$$/| $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$$  |  $$$$/
+#|__/     |__/ \_______/|__/  |__/ \_______/ \____  $$ \_______/|__/          \_/    \______/ |__/ \_______/ \_______/ \______/ |__/  |__/ \_______/   \___/
+#                                            /$$  \ $$
+#                                           |  $$$$$$/
+#                                            \______/
+#
+#
+#
+#                                      GitHub (Source Code): https://github.com/PandaDevOfficial/ManagerVoiceChat
+#
+#
+#
+# General
+no-plugin: "<red>Aucun plugin ou mod de chat vocal compatible détecté.</red> <gray>Veuillez installer au moins un de :</gray> <yellow>{plugins}</yellow>."
+missing-plugin: "<yellow>{plugin}</yellow> n'est pas installé. <gray>Certaines fonctionnalités peuvent être indisponibles.</gray>"
+player-not-found: "<red>Joueur introuvable :</red> <white>{player}</white>"
+
+# Reload
+reload-success: "<green>Configuration et langues rechargées avec succès.</green>"
+reload-error: "<red>Erreur lors du rechargement : <white>{error}</white></red>"
+
+# Languages
+lang:
+  not-found: "<red>Langue introuvable :</red> <yellow>{lang}</yellow>"
+  disabled: "<red>Le changement de langue personnelle est désactivé par l'administrateur.</red>"
+  global-changed: "<green>Langue globale changée en :</green> <yellow>{lang}</yellow>"
+  self-changed: "<green>Votre langue a été changée en :</green> <yellow>{lang}</yellow>"
+  other-changed: "<green>La langue de {player} a été changée en :</green> <yellow>{lang}</yellow>"
+  changed-by-admin: "<aqua>Votre langue a été changée en :</aqua> <yellow>{lang}</yellow> <gray>(par un administrateur)</gray>"
+  list: "<aqua>Langues disponibles :</aqua> <yellow>{langs}</yellow>"
+
+# Individual commands
+mute-success: "<green>Vous avez coupé le micro de <white>{player}</white>.</green>"
+unmute-success: "<green>Vous avez réactivé le micro de <white>{player}</white>.</green>"
+mute-listen-success: "<green>Vous avez coupé l'écoute de <white>{player}</white>.</green>"
+unmute-listen-success: "<green>Vous avez réactivé l'écoute de <white>{player}</white>.</green>"
+
+# Global speak
+speak-global-enable: "<blue>[🎙]</blue> <white>Parole activée pour tous.</white>"
+speak-global-disable: "<red>[🎙x]</red> <white>Tous les micros sont coupés.</white>"
+
+# Global listen
+listen-global-enable: "<green>[✔]</green> <white>Écoute activée pour tous.</white>"
+listen-global-disable: "<red>[✖]</red> <white>Écoute désactivée pour tous.</white>"
+
+# Individual speak
+speak-enable: "<green>[✔]</green> <white>Vous pouvez maintenant parler !</white>"
+speak-disable: "<red>[✖]</red> <white>Votre micro a été coupé.</white>"
+
+# Individual listen
+listen-enable: "<green>[✔]</green> <white>Vous pouvez de nouveau écouter !</white>"
+listen-disable: "<red>[✖]</red> <white>Votre écoute a été désactivée.</white>"
+
+# Notifications (when it affects an entire group)
+speak-notify-enable: "<green>[✔]</green> <white>Vous pouvez maintenant parler !</white>"
+speak-notify-disable: "<red>[✖]</red> <white>Micro désactivé, veuillez écouter attentivement.</white>"
+listen-notify-enable: "<green>[✔]</green> <white>Vous pouvez de nouveau écouter !</white>"
+listen-notify-disable: "<red>[✖]</red> <white>Écoute temporairement désactivée.</white>"

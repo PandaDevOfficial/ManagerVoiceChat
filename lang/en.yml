@@ -1,0 +1,64 @@
+#  /$$      /$$                                                             /$$    /$$          /$$                      /$$$$$$  /$$                   /$$
+#| $$$    /$$$                                                            | $$   | $$         |__/                     /$$__  $$| $$                  | $$
+#| $$$$  /$$$$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$   | $$ /$$$$$$  /$$  /$$$$$$$  /$$$$$$ | $$  \__/| $$$$$$$   /$$$$$$  /$$$$$$
+#| $$ $$/$$ $$ |____  $$| $$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$|  $$ / $$//$$__  $$| $$ /$$_____/ /$$__  $$| $$      | $$__  $$ |____  $$|_  $$_/
+#| $$  $$$| $$  /$$$$$$$| $$  \ $$  /$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/ \  $$ $$/| $$  \ $$| $$| $$      | $$$$$$$$| $$      | $$  \ $$  /$$$$$$$  | $$
+#| $$\  $ | $$ /$$__  $$| $$  | $$ /$$__  $$| $$  | $$| $$_____/| $$        \  $$$/ | $$  | $$| $$| $$      | $$_____/| $$    $$| $$  | $$ /$$__  $$  | $$ /$$
+#| $$ \/  | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$         \  $/  |  $$$$$$/| $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$$  |  $$$$/
+#|__/     |__/ \_______/|__/  |__/ \_______/ \____  $$ \_______/|__/          \_/    \______/ |__/ \_______/ \_______/ \______/ |__/  |__/ \_______/   \___/
+#                                            /$$  \ $$
+#                                           |  $$$$$$/
+#                                            \______/
+#
+#
+#
+#                                      GitHub (Source Code): https://github.com/PandaDevOfficial/ManagerVoiceChat
+#
+#
+#
+# General
+no-plugin: "<red>No supported voice chat plugin or mod detected.</red> <gray>Please install at least one of:</gray> <yellow>{plugins}</yellow>."
+missing-plugin: "<yellow>{plugin}</yellow> is not installed. <gray>Some features may not work.</gray>"
+player-not-found: "<red>Player not found: <white>{player}</white></red>"
+
+# Reload
+reload-success: "<green>Configuration and languages reloaded successfully.</green>"
+reload-error: "<red>Error while reloading: <white>{error}</white></red>"
+
+# Languages
+lang:
+  not-found: "<red>Language not found:</red> <yellow>{lang}</yellow>"
+  disabled: "<red>Personal language change is disabled by the administrator.</red>"
+  global-changed: "<green>Global language changed to:</green> <yellow>{lang}</yellow>"
+  self-changed: "<green>Your language has been changed to:</green> <yellow>{lang}</yellow>"
+  other-changed: "<green>{player}'s language was changed to:</green> <yellow>{lang}</yellow>"
+  changed-by-admin: "<aqua>Your language was changed to:</aqua> <yellow>{lang}</yellow> <gray>(by an admin)</gray>"
+  list: "<aqua>Available languages:</aqua> <yellow>{langs}</yellow>"
+
+# Individual commands
+mute-success: "<green>You muted <white>{player}</white>.</green>"
+unmute-success: "<green>You unmuted <white>{player}</white>.</green>"
+mute-listen-success: "<green>You muted listening for <white>{player}</white>.</green>"
+unmute-listen-success: "<green>You unmuted listening for <white>{player}</white>.</green>"
+
+# Global speak
+speak-global-enable: "<blue>[🎙]</blue> <white>Speaking enabled for everyone.</white>"
+speak-global-disable: "<red>[🎙x]</red> <white>All microphones muted.</white>"
+
+# Global listen
+listen-global-enable: "<green>[✔]</green> <white>Listening enabled for everyone.</white>"
+listen-global-disable: "<red>[✖]</red> <white>Listening disabled for everyone.</white>"
+
+# Individual speak
+speak-enable: "<green>[✔]</green> <white>You can speak now!</white>"
+speak-disable: "<red>[✖]</red> <white>Your microphone has been muted.</white>"
+
+# Individual listen
+listen-enable: "<green>[✔]</green> <white>You can listen again!</white>"
+listen-disable: "<red>[✖]</red> <white>Your listening has been disabled.</white>"
+
+# Notifications (when it affects an entire group)
+speak-notify-enable: "<green>[✔]</green> <white>You are now allowed to speak!</white>"
+speak-notify-disable: "<red>[✖]</red> <white>Microphone disabled, please listen carefully.</white>"
+listen-notify-enable: "<green>[✔]</green> <white>You can listen again!</white>"
+listen-notify-disable: "<red>[✖]</red> <white>Listening temporarily disabled.</white>"

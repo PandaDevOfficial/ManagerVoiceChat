@@ -1,0 +1,64 @@
+#  /$$      /$$                                                             /$$    /$$          /$$                      /$$$$$$  /$$                   /$$
+#| $$$    /$$$                                                            | $$   | $$         |__/                     /$$__  $$| $$                  | $$
+#| $$$$  /$$$$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$   | $$ /$$$$$$  /$$  /$$$$$$$  /$$$$$$ | $$  \__/| $$$$$$$   /$$$$$$  /$$$$$$
+#| $$ $$/$$ $$ |____  $$| $$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$|  $$ / $$//$$__  $$| $$ /$$_____/ /$$__  $$| $$      | $$__  $$ |____  $$|_  $$_/
+#| $$  $$$| $$  /$$$$$$$| $$  \ $$  /$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/ \  $$ $$/| $$  \ $$| $$| $$      | $$$$$$$$| $$      | $$  \ $$  /$$$$$$$  | $$
+#| $$\  $ | $$ /$$__  $$| $$  | $$ /$$__  $$| $$  | $$| $$_____/| $$        \  $$$/ | $$  | $$| $$| $$      | $$_____/| $$    $$| $$  | $$ /$$__  $$  | $$ /$$
+#| $$ \/  | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$         \  $/  |  $$$$$$/| $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$$  |  $$$$/
+#|__/     |__/ \_______/|__/  |__/ \_______/ \____  $$ \_______/|__/          \_/    \______/ |__/ \_______/ \_______/ \______/ |__/  |__/ \_______/   \___/
+#                                            /$$  \ $$
+#                                           |  $$$$$$/
+#                                            \______/
+#
+#
+#
+#                                      GitHub (Source Code): https://github.com/PandaDevOfficial/ManagerVoiceChat
+#
+#
+#
+# General
+no-plugin: "<red>対応するボイスチャットのプラグインまたはMODが検出されませんでした。</red> <gray>次のいずれかをインストールしてください：</gray> <yellow>{plugins}</yellow>."
+missing-plugin: "<yellow>{plugin}</yellow> がインストールされていません。<gray>一部の機能が使用できない可能性があります。</gray>"
+player-not-found: "<red>プレイヤーが見つかりません：</red> <white>{player}</white>"
+
+# Reload
+reload-success: "<green>設定と言語が正常にリロードされました。</green>"
+reload-error: "<red>リロード中にエラーが発生しました: <white>{error}</white></red>"
+
+# Languages
+lang:
+  not-found: "<red>言語が見つかりません：</red> <yellow>{lang}</yellow>"
+  disabled: "<red>個人の言語変更は管理者によって無効化されています。</red>"
+  global-changed: "<green>グローバル言語が変更されました：</green> <yellow>{lang}</yellow>"
+  self-changed: "<green>あなたの言語は次に変更されました：</green> <yellow>{lang}</yellow>"
+  other-changed: "<green>{player} の言語が次に変更されました：</green> <yellow>{lang}</yellow>"
+  changed-by-admin: "<aqua>あなたの言語は次に変更されました：</aqua> <yellow>{lang}</yellow> <gray>(管理者によって)</gray>"
+  list: "<aqua>利用可能な言語：</aqua> <yellow>{langs}</yellow>"
+
+# Individual commands
+mute-success: "<green><white>{player}</white> をミュートしました。</green>"
+unmute-success: "<green><white>{player}</white> のミュートを解除しました。</green>"
+mute-listen-success: "<green><white>{player}</white> のリスニングをミュートしました。</green>"
+unmute-listen-success: "<green><white>{player}</white> のリスニングを解除しました。</green>"
+
+# Global speak
+speak-global-enable: "<blue>[🎙]</blue> <white>全員が発言可能になりました。</white>"
+speak-global-disable: "<red>[🎙x]</red> <white>全員のマイクがミュートされました。</white>"
+
+# Global listen
+listen-global-enable: "<green>[✔]</green> <white>全員がリスニング可能になりました。</white>"
+listen-global-disable: "<red>[✖]</red> <white>全員のリスニングが無効化されました。</white>"
+
+# Individual speak
+speak-enable: "<green>[✔]</green> <white>今話すことができます！</white>"
+speak-disable: "<red>[✖]</red> <white>あなたのマイクはミュートされました。</white>"
+
+# Individual listen
+listen-enable: "<green>[✔]</green> <white>再び聞くことができます！</white>"
+listen-disable: "<red>[✖]</red> <white>あなたのリスニングは無効化されました。</white>"
+
+# Notifications (when it affects an entire group)
+speak-notify-enable: "<green>[✔]</green> <white>あなたは話すことが許可されました！</white>"
+speak-notify-disable: "<red>[✖]</red> <white>マイクが無効化されました。注意して聞いてください。</white>"
+listen-notify-enable: "<green>[✔]</green> <white>再び聞くことができます！</white>"
+listen-notify-disable: "<red>[✖]</red> <white>リスニングは一時的に無効化されています。</white>"
